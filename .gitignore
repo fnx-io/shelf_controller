@@ -12,3 +12,6 @@ pubspec.lock
 
 # Internal specification
 specs.md
+
+# Claude Code runtime state
+.claude/scheduled_tasks.lock
