@@ -1,0 +1,11 @@
+
+# APM dependencies
+apm_modules/
+
+# Dart
+.dart_tool/
+build/
+# IDE
+.idea/
+*.iml
+pubspec.lock

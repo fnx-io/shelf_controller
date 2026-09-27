@@ -1,0 +1,22 @@
+name: shelf_controller
+version: "1.0.0"
+description: Typed shelf controllers with generated routing and OpenAPI 3.1 spec
+targets:
+  - claude
+dependencies:
+  apm:
+    - dart-lang/skills/skills/dart-add-unit-test#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-build-cli-app#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-collect-coverage#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-fix-runtime-errors#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-generate-test-mocks#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-migrate-to-checks-package#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-resolve-package-conflicts#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-run-static-analysis#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-setup-ffi-assets#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-use-doc-examples#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-use-ffigen#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-use-path-package#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-use-pattern-matching#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-use-primary-constructors#82a49602fe18cecfe41859592af600cb9d875e40
+    - dart-lang/skills/skills/dart-write-documentation#82a49602fe18cecfe41859592af600cb9d875e40

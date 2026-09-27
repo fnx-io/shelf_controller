@@ -1,0 +1,243 @@
+lockfile_version: '1'
+generated_at: '2026-09-27T14:35:05.928355+00:00'
+apm_version: 0.22.0
+dependencies:
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-add-unit-test
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-add-unit-test
+  - .claude/skills/dart-add-unit-test/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-add-unit-test/SKILL.md: sha256:02428fa20c2cb90afcaf17a52c559641b85eb04f2765a54da2bc72ca858c1fce
+  content_hash: sha256:55dabb37175bc8091a02b7d78d405f7e33173698c48a649ea29748f1186ac9c0
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-build-cli-app
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-build-cli-app
+  - .claude/skills/dart-build-cli-app/SKILL.md
+  - .claude/skills/dart-build-cli-app/examples/multi_command_runner.dart
+  - .claude/skills/dart-build-cli-app/examples/single_command_tool.dart
+  - .claude/skills/dart-build-cli-app/references/aot_sdk_discovery.md
+  - .claude/skills/dart-build-cli-app/references/signals_and_terminal.md
+  deployed_file_hashes:
+    .claude/skills/dart-build-cli-app/SKILL.md: sha256:62880f343b3a927cc23a5ca6cfa65c2b77c35a5129755245e5a52f965fc54d73
+    .claude/skills/dart-build-cli-app/examples/multi_command_runner.dart: sha256:012c2553fa0d47ad4796ca6ba793301b0d6d81ac7f092b8142b43c1aa4c05044
+    .claude/skills/dart-build-cli-app/examples/single_command_tool.dart: sha256:fd13a1ea2e53f9a8aeb5b8e5e1f16d74ede205d985d6fad841da7929a2c2b80e
+    .claude/skills/dart-build-cli-app/references/aot_sdk_discovery.md: sha256:e20056e030a50aa1c4c42f1d151a2247b4d88cfebc6d67e52780fd54bb81e442
+    .claude/skills/dart-build-cli-app/references/signals_and_terminal.md: sha256:7af85efcfa62438e8651ea72fa203e57650aeff735e836f62298eb9bfdb1a63a
+  content_hash: sha256:6ba842da87a86b11a11ce0381aba71ab233b22f9032deb01a03fb495d302a186
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-collect-coverage
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-collect-coverage
+  - .claude/skills/dart-collect-coverage/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-collect-coverage/SKILL.md: sha256:229035193bfd785368c48e3dd8ee059df43fcbdfe227dfd8a9a0178b995ee6c6
+  content_hash: sha256:36d77c4ebc2edc7ade399ae8461776dd33a461899afda4b2b9d8e7f599d2ef6c
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-fix-runtime-errors
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-fix-runtime-errors
+  - .claude/skills/dart-fix-runtime-errors/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-fix-runtime-errors/SKILL.md: sha256:0c18be0cbda925cb1322c2c47a52c288cce1dc34218705a20c4c071eed1b066d
+  content_hash: sha256:7b13cb0df76693d8c798432a1f86325b093a35e9687f231a012763fcad54fb2c
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-generate-test-mocks
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-generate-test-mocks
+  - .claude/skills/dart-generate-test-mocks/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-generate-test-mocks/SKILL.md: sha256:ca58b0e0d045595aa99990715bbf48fc75b1c5dca4053bc1940ef289cbcf2f00
+  content_hash: sha256:7bf12a98d63e96ed51ba077a24426be1b11a9fc508f7dfca60fc6e118c3fc923
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-migrate-to-checks-package
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-migrate-to-checks-package
+  - .claude/skills/dart-migrate-to-checks-package/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-migrate-to-checks-package/SKILL.md: sha256:005dbd697fcfb314e069a9954e46005f18b9333282057bad238b5e5a65976e77
+  content_hash: sha256:00b7fa026dcf004421650f20147d020244886321f715ff57ee38a96b3a9945bc
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-resolve-package-conflicts
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-resolve-package-conflicts
+  - .claude/skills/dart-resolve-package-conflicts/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-resolve-package-conflicts/SKILL.md: sha256:967093ae2bca2784ba6a104dba3821ad809b399ca22071e9afc512915f60fa0a
+  content_hash: sha256:e25c789387152d9d0c437610caa5746e337a789bcb8e9c9887b0425b94b734ef
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-run-static-analysis
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-run-static-analysis
+  - .claude/skills/dart-run-static-analysis/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-run-static-analysis/SKILL.md: sha256:5e41a03011647bcaee182ddc5d4471122f45f93fec6570480c237077e7f9438c
+  content_hash: sha256:e64ea092e216ecdc9b4a8b49b06d0b9a0b49f680c1116ada1d247b2de3fa6fe1
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-setup-ffi-assets
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-setup-ffi-assets
+  - .claude/skills/dart-setup-ffi-assets/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-setup-ffi-assets/SKILL.md: sha256:361b38a74d11abe5ba95aa9a6f0ad51e4850e5daf03acd7e1ab419bf0dfae0a8
+  content_hash: sha256:c27f5a4e79a4f291e09a9cfeab2842bb04d3570bb64c56bf309e573c3f244ef8
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-use-doc-examples
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-use-doc-examples
+  - .claude/skills/dart-use-doc-examples/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-use-doc-examples/SKILL.md: sha256:30b456ce311ca15b7b18bcda9008f379bf76f0a6a1d49ad97dce965c461fd4c7
+  content_hash: sha256:516b718be053a5e94aab16a40a7c4ca7adba83380722ae42d43d101a5dcb721f
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-use-ffigen
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-use-ffigen
+  - .claude/skills/dart-use-ffigen/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-use-ffigen/SKILL.md: sha256:129ae526e854ea73e829dfa0f4f90fa5cb6e9b80a86aefd1bdd5d761afa4b676
+  content_hash: sha256:688ec3e0218b3a96437916be5bdcaea87fe4f90ba869c3deec2f3392f1c6b626
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-use-path-package
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-use-path-package
+  - .claude/skills/dart-use-path-package/SKILL.md
+  - .claude/skills/dart-use-path-package/examples/cross_platform_paths.dart
+  - .claude/skills/dart-use-path-package/examples/file_system_context.dart
+  deployed_file_hashes:
+    .claude/skills/dart-use-path-package/SKILL.md: sha256:edbc27c8764d7ae4d7dbb7d016c1ae80ab6da19c901d77de5cc6a20677f5340c
+    .claude/skills/dart-use-path-package/examples/cross_platform_paths.dart: sha256:4bc632a8371e14aaed3ce7286f3bfa039cf55efc22f96fe0b6ef0ae591dda372
+    .claude/skills/dart-use-path-package/examples/file_system_context.dart: sha256:604e0dec81e93deb8dd543b80474b5db172162867cc0dac349cca6f613e85314
+  content_hash: sha256:aa44abe695ea1eccf75c255f39c73fb40993b8e8ba99041f92ff8f23ffb0f0cc
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-use-pattern-matching
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-use-pattern-matching
+  - .claude/skills/dart-use-pattern-matching/SKILL.md
+  - .claude/skills/dart-use-pattern-matching/examples/json_patterns.dart
+  deployed_file_hashes:
+    .claude/skills/dart-use-pattern-matching/SKILL.md: sha256:46d854da7d229a168747c3f45cd895a1b42086830a56ba9d6975c8e4d6692a52
+    .claude/skills/dart-use-pattern-matching/examples/json_patterns.dart: sha256:86c64977d44c5d066899118979a5c94a2b9bda8bc4cbca4bd56cc8e1310f91f8
+  content_hash: sha256:b0f1bbe3bc99250eab82f860130dcbc07dd908893b003d382866f4e8ef358b51
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-use-primary-constructors
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-use-primary-constructors
+  - .claude/skills/dart-use-primary-constructors/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-use-primary-constructors/SKILL.md: sha256:598d2fcb7641f6715861827840698450c3e8d077b4e92326e8bffe87e5b23c0c
+  content_hash: sha256:7cf85926f3de62ed9357d4f1f58da3762ebba5850308945a4836114e6ac0b048
+- repo_url: dart-lang/skills
+  name: skills
+  host: github.com
+  resolved_commit: 82a49602fe18cecfe41859592af600cb9d875e40
+  resolved_ref: 82a49602fe18cecfe41859592af600cb9d875e40
+  version: unknown
+  virtual_path: skills/dart-write-documentation
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/dart-write-documentation
+  - .claude/skills/dart-write-documentation/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/dart-write-documentation/SKILL.md: sha256:0629abbb9e0c0bb9aee2237b6617600a01499015bb4484a20b81ee96857d67ef
+  content_hash: sha256:48724a1c25019504248ae10bdc37d77b077dcca2a26d4830860201c9d7a77126
