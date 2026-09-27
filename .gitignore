@@ -9,3 +9,6 @@ build/
 .idea/
 *.iml
 pubspec.lock
+
+# Internal specification
+specs.md

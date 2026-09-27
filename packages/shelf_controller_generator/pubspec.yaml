@@ -1,6 +1,6 @@
 name: shelf_controller_generator
 description: build_runner builders generating shelf routers and an OpenAPI 3.1 spec from typed shelf controllers.
-version: 1.0.0
+version: 0.1.0
 repository: https://github.com/fnx-io/shelf_controller/tree/master/packages/shelf_controller_generator
 issue_tracker: https://github.com/fnx-io/shelf_controller/issues
 topics:

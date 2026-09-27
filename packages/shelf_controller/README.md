@@ -64,7 +64,7 @@ dependencies:
     git:
       url: https://github.com/fnx-io/shelf_controller.git
       path: packages/shelf_controller
-      ref: master # or a tag, for example v1.0.0
+      ref: master # or a tag, for example v0.1.0
   json_annotation: ^4.12.0
 
 dev_dependencies:
