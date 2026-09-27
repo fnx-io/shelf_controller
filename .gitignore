@@ -13,5 +13,5 @@ pubspec.lock
 # Internal specification
 specs.md
 
-# Claude Code runtime state
-.claude/scheduled_tasks.lock
+# Claude Code (skills installed via apm.yml)
+.claude/
