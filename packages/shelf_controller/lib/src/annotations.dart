@@ -43,36 +43,31 @@ abstract class Operation {
 /// Maps a controller method to an HTTP `GET` operation.
 class Get extends Operation {
   /// Creates a `GET` operation on [path].
-  const Get(String path, {String? operationId})
-    : super('GET', path, operationId: operationId);
+  const Get(String path, {super.operationId}) : super('GET', path);
 }
 
 /// Maps a controller method to an HTTP `POST` operation.
 class Post extends Operation {
   /// Creates a `POST` operation on [path].
-  const Post(String path, {String? operationId})
-    : super('POST', path, operationId: operationId);
+  const Post(String path, {super.operationId}) : super('POST', path);
 }
 
 /// Maps a controller method to an HTTP `PUT` operation.
 class Put extends Operation {
   /// Creates a `PUT` operation on [path].
-  const Put(String path, {String? operationId})
-    : super('PUT', path, operationId: operationId);
+  const Put(String path, {super.operationId}) : super('PUT', path);
 }
 
 /// Maps a controller method to an HTTP `PATCH` operation.
 class Patch extends Operation {
   /// Creates a `PATCH` operation on [path].
-  const Patch(String path, {String? operationId})
-    : super('PATCH', path, operationId: operationId);
+  const Patch(String path, {super.operationId}) : super('PATCH', path);
 }
 
 /// Maps a controller method to an HTTP `DELETE` operation.
 class Delete extends Operation {
   /// Creates a `DELETE` operation on [path].
-  const Delete(String path, {String? operationId})
-    : super('DELETE', path, operationId: operationId);
+  const Delete(String path, {super.operationId}) : super('DELETE', path);
 }
 
 /// Binds a method parameter to a segment of the request path.
