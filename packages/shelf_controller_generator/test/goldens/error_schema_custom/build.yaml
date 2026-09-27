@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      shelf_controller_generator:
+        options:
+          errorSchema:
+            name: ApiError
+            schema:
+              type: object
+              properties:
+                message: { type: string }
+              required: [message]

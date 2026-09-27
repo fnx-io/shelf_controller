@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Check formatting
+        run: dart format --output=none --set-exit-if-changed packages example
+
+      - name: Analyze
+        run: dart analyze --fatal-infos packages example
+
+      - name: Test shelf_controller
+        working-directory: packages/shelf_controller
+        run: dart test
+
+      - name: Generate example code and spec
+        working-directory: example
+        run: dart run build_runner build
+
+      - name: Check the committed spec is up to date
+        run: git diff --exit-code example/openapi.yaml
+
+      - name: Test shelf_controller_generator
+        working-directory: packages/shelf_controller_generator
+        run: dart test
+
+      - name: Test example
+        working-directory: example
+        run: dart test
+
+      - name: Check publishability
+        run: |
+          for package in packages/*/; do
+            (cd "$package" && dart pub publish --dry-run)
+          done

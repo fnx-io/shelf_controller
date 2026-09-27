@@ -1,0 +1,16 @@
+# Structural validation of generated specs. Style rules of the recommended
+# ruleset (summaries, license, servers, ...) are up to the application.
+extends:
+  - minimal
+rules:
+  struct: error
+  no-unresolved-refs: error
+  no-invalid-schema-examples: error
+  no-invalid-parameter-examples: error
+  operation-operationId-unique: error
+  operation-parameters-unique: error
+  path-parameters-defined: error
+  no-identical-paths: error
+  no-ambiguous-paths: error
+  no-path-trailing-slash: error
+  spec-components-invalid-map-name: error

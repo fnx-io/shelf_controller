@@ -1,0 +1,20 @@
+targets:
+  $default:
+    builders:
+      shelf_controller_generator:
+        options:
+          info:
+            title: Secured API
+            version: 2.0.0
+          securitySchemes:
+            bearer: { type: http, scheme: bearer, bearerFormat: JWT }
+            oauth:
+              type: oauth2
+              flows:
+                clientCredentials:
+                  tokenUrl: https://auth.example.com/token
+                  scopes:
+                    read: Read access
+                    write: Write access
+          security:
+            - bearer: []

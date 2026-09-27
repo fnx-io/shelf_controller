@@ -1,0 +1,8 @@
+name: shelf_controller_workspace
+publish_to: none
+environment:
+  sdk: ^3.11.0
+workspace:
+  - packages/shelf_controller
+  - packages/shelf_controller_generator
+  - example

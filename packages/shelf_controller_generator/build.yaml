@@ -1,0 +1,29 @@
+builders:
+  router:
+    import: "package:shelf_controller_generator/shelf_controller_generator.dart"
+    builder_factories: ["routerBuilder"]
+    build_extensions: {".dart": [".shelf_controller.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen:combining_builder"]
+
+  openapi_fragment:
+    import: "package:shelf_controller_generator/shelf_controller_generator.dart"
+    builder_factories: ["openApiFragmentBuilder"]
+    build_extensions: {".dart": [".openapi.json"]}
+    auto_apply: dependents
+    build_to: cache
+    defaults:
+      generate_for:
+        - lib/**
+        - bin/**
+
+  # Named after the package, so applications configure it with the key
+  # `shelf_controller_generator` in their build.yaml.
+  shelf_controller_generator:
+    import: "package:shelf_controller_generator/shelf_controller_generator.dart"
+    builder_factories: ["openApiBuilder"]
+    build_extensions: {"$package$": ["openapi.yaml"]}
+    auto_apply: dependents
+    build_to: source
+    required_inputs: [".openapi.json"]
