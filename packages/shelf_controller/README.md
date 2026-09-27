@@ -52,6 +52,7 @@ calls. The generator is a dev dependency only.
 - [Extension points](#extension-points)
 - [OpenAPI annotations](#openapi-annotations)
 - [What is out of scope](#what-is-out-of-scope)
+- [AI coding agents](#ai-coding-agents)
 
 ## Installation
 
@@ -338,6 +339,13 @@ The library deliberately leaves these to the application:
 - multipart, uploads and downloads (use `Request` and `Response`),
 - generating clients; use [OpenAPI Generator](https://openapi-generator.tech)
   with the generated spec.
+
+## AI coding agents
+
+The repository ships an [agent skill](https://github.com/fnx-io/shelf_controller/tree/master/skills/shelf-controller)
+that teaches AI coding agents to use shelf_controller correctly. Install it
+with `apm install fnx-io/shelf_controller/skills/shelf-controller`, or copy
+the directory into your agent's skills folder.
 
 ## Example
 

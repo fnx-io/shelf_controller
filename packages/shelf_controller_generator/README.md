@@ -180,6 +180,13 @@ git diff --exit-code openapi.yaml
 The build then fails whenever the committed spec does not match the code, so
 every contract change is visible in review.
 
+## AI coding agents
+
+The repository ships an [agent skill](https://github.com/fnx-io/shelf_controller/tree/master/skills/shelf-controller)
+that teaches AI coding agents to use shelf_controller correctly. Install it
+with `apm install fnx-io/shelf_controller/skills/shelf-controller`, or copy
+the directory into your agent's skills folder.
+
 ## Testing
 
 The generator is covered by golden tests: every directory in

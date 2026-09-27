@@ -26,10 +26,27 @@ visible in review.
 | [`shelf_controller`](packages/shelf_controller) | Annotations, `RouteInfo`, interceptors, Problem Details and the runtime used by generated code. A regular dependency. |
 | [`shelf_controller_generator`](packages/shelf_controller_generator) | The `build_runner` builders generating routers and `openapi.yaml`. A dev dependency. |
 | [`example`](example) | A complete application with tests. |
+| [`skills/shelf-controller`](skills/shelf-controller) | An agent skill for AI coding agents using the library. |
 
 Start with the [shelf_controller README](packages/shelf_controller/README.md);
 the [generator README](packages/shelf_controller_generator/README.md) covers the
 spec, its configuration and the type mapping.
+
+## Agent skill
+
+[`skills/shelf-controller`](skills/shelf-controller) is an
+[agent skill](https://agentskills.io) teaching AI coding agents (Claude Code,
+Copilot, Cursor, ...) to use this library: writing controllers, binding,
+wiring, authorization through `RouteInfo`, validation interceptors, DTO
+schemas and fixing generator errors. Install it into an application with
+[APM](https://github.com/microsoft/apm):
+
+```sh
+apm install fnx-io/shelf_controller/skills/shelf-controller
+```
+
+or copy the directory into the agent's skills folder, for example
+`.claude/skills/shelf-controller`.
 
 ## Development
 
